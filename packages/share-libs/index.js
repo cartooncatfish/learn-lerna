@@ -22,3 +22,9 @@ export interface IData2 = {
     f2: 'age',
     f3: 'address'
 };
+
+export interface IData3 = {
+	f1: 'name',
+    f2: 'age',
+    f3: 'address'
+};

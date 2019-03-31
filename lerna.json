@@ -1,6 +1,13 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "1.0.0"
+	"packages": ["packages/*"],
+	"version": "1.0.0",
+	"changelog": {
+		"labels": {
+			"enhancement": ":rocket: Enhancement",
+			"bug": ":bug: Bug Fix",
+			"doc": "Refine Doc",
+			"feat": "New Feature"
+		},
+		"cacheDir": ".changelog"
+	}
 }

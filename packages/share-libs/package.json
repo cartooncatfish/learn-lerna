@@ -1,19 +1,18 @@
 {
-  "name": "learn-lerna-share-lib",
-  "version": "1.0.0",
-  "description": "The share lib of the system",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "http://localhost:8081/repository/npm-pattern-editor/"
-  },
-  "keywords": [
-    "learn",
-    "lerna"
-  ],
-  "author": "Mike Mo",
-  "license": "ISC"
+	"name": "learn-lerna-share-lib",
+	"version": "1.0.0",
+	"description": "The share lib of the system",
+	"main": "index.js",
+	"publishConfig": {
+		"registry": "http://localhost:8081/repository/npm-pattern-editor/"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"learn",
+		"lerna"
+	],
+	"author": "Mike Mo",
+	"license": "ISC"
 }

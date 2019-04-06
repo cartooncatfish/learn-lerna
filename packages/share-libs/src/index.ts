@@ -16,6 +16,8 @@ export const FixedData7 = {
 	f2: 'age',
 };
 
+export const Greeter = (name: string) => `Hello ${name}`;
+
 // export interface IData = {
 // 	f1: 'name',
 //     f2: 'age',

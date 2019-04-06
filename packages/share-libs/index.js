@@ -11,7 +11,7 @@ export const myRandomNoGenerator = (min, max) => {
 	return Math.random() * (max - min) + min;
 };
 
-export const FixedData2 = {
+export const FixedData3 = {
 	f1: 'name',
 	f2: 'age',
 };

@@ -3,7 +3,7 @@ export const FixedData = {
 	f2: 'age',
 };
 
-export const myRandomNoGenerator = (min, max) => {
+export const myRandomNoGenerator = (min: number, max: number) => {
 	if (typeof max !== 'number' && typeof min !== 'number') {
 		min = 0;
 		max = 1;

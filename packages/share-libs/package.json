@@ -7,6 +7,7 @@
 		"registry": "http://localhost:8088/repository/npm-private/"
 	},
 	"scripts": {
+		"build": "tsc",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
@@ -15,5 +16,8 @@
 	],
 	"author": "Mike Mo",
 	"license": "ISC",
-	"gitHead": "a3a51687c10d87feb583f9ffed61f3d6f54efb19"
+	"gitHead": "a3a51687c10d87feb583f9ffed61f3d6f54efb19",
+	"devDependencies": {
+		"typescript": "^3.4.2"
+	}
 }

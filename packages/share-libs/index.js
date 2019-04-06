@@ -11,6 +11,11 @@ export const myRandomNoGenerator = (min, max) => {
 	return Math.random() * (max - min) + min;
 };
 
+export const FixedData2 = {
+	f1: 'name',
+	f2: 'age',
+};
+
 // export interface IData = {
 // 	f1: 'name',
 //     f2: 'age',

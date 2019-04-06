@@ -14,5 +14,6 @@
 		"lerna"
 	],
 	"author": "Mike Mo",
-	"license": "ISC"
+	"license": "ISC",
+	"gitHead": "837a0036add90e7c4fc80be043573a1bca2895a8"
 }

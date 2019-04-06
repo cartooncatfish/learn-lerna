@@ -1,12 +1,12 @@
 {
 	"name": "learn-lerna-app2",
-	"version": "1.1.8",
+	"version": "1.1.9",
 	"private": true,
 	"publishConfig": {
 		"registry": "http://localhost:8081/repository/npm-pattern-editor/"
 	},
 	"dependencies": {
-		"learn-lerna-share-lib": "^1.1.8",
+		"learn-lerna-share-lib": "^1.1.9",
 		"loading-fabric": "^1.0.0",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
